@@ -32,6 +32,21 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      "expo-sqlite",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Memory Lane uses your photos to build matching games.",
+          "savePhotosPermission": "Memory Lane can save photos you share from the game.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Memory Lane uses your photos to build matching games."
+        }
       ]
     ],
     "experiments": {
